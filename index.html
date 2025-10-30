@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Graca Coelho</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #111;
+            line-height: 1.8;
+            max-width: 760px;
+            margin: auto;
+            padding: 50px 30px;
+            font-size: 1.05rem;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .header-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: normal;
+        }
+        .subtitle {
+            font-size: 1.15rem;
+            margin-top: 0.3rem;
+            color: #333;
+        }
+        img.profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 3rem;
+            font-weight: normal;
+        }
+        p {
+            font-size: 1.15rem;
+            margin-bottom: 1.7rem;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+            transition: color 0.3s ease, opacity 0.3s ease;
+        }
+        a:hover {
+            color: #003d80;
+            opacity: 0.7;
+        }
+        img.icon {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            margin-right: 10px;
+            object-fit: contain;
+        }
+        nav {
+            width: 100%;
+            margin-top: 1.5rem;
+        }
+        nav a {
+            margin-right: 20px;
+            font-size: 1.05rem;
+        }
+        footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        ul {
+            font-size: 1.05rem;
+            margin-left: 1.5rem;
+            margin-bottom: 1.7rem;
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 15px;
+        }
+        .desc {
+            display: block;
+            font-size: 0.95rem;
+            color: #444;
+            margin-left: 40px;
+            margin-top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>Bruno Graca Coelho</h1>
+            <div class="subtitle">AI/ ML builder · Head of Data · MBA@UChicago Booth School of Business</div>
+        </div>
+        <img src="bruno-profile.jpg" alt="Bruno Graca Coelho" class="profile-img">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">AI Product portfolio/ experiments</a>
+            <a href="#academics">Academics</a>
+            <a href="#training">Training / Courses</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Problem solver with AI and Machine Learning. Currently Head of Data at a global Insurance group, passionate about AI transformation, product strategy, and development. I am currently completing my MBA at Booth with a concentration on Strategy and Applied AI.</p>
+    </section>
+
+    <section id="projects">
+        <h2>AI Product portfolio/ experiments</h2>
+        <ul>
+            <li><img src="project-icon.png" alt="Project Icon" class="icon"><a href="https://github.com/bgcoelho/ai_earnings_predictor">AI/ LLM-based adjusted earnings calculator & predictor</a><span class="desc">...</span></li>
+            <li><img src="project-icon.png" alt="Project Icon" class="icon"><a href="https://github.com/bgcoelho/ai-uwr-risk-predictor">AI/ LLM-based Insurance Underwriting (UWR) risk decision engine</a><span class="desc">...</span></li>
+            <li><img src="project-icon.png" alt="Project Icon" class="icon"><a href="https://github.com/bgcoelho/ai-alpha-analytics">AI/ ML-based Stock's alpha (excess returns) analytics/ predictor</a><span class="desc">...</span></li>
+            <li><img src="project-icon.png" alt="Project Icon" class="icon"><a href="https://github.com/bgcoelho/ai_data_accuracy_validator">AI/ LLM-based solution that extracts data from unstructured email/ documents</a><span class="desc">...</span></li>
+        </ul>
+    </section>
+
+    <section id="academics">
+        <h2>Academics</h2>
+        <ul>
+            <li><img src="uchicago-logo.png" alt="UChicago Logo" class="icon"><a href="#">UChicago Booth MBA - Applied AI Concentration</a><span class="desc">Focused on AI strategy, analytics, and enterprise applications.</span></li>
+            <li><img src="certification-icon.png" alt="IST Icon" class="icon"><a href="#">Lisbon Tech University - Masters in Communication Network Engineering</a><span class="desc">Computer Networks engineering</span></li>
+        </ul>
+    </section>
+
+    <section id="training">
+        <h2>Trainings / Certifications</h2>
+        <ul>
+            <li><img src="training-icon.png" alt="Training Icon" class="icon"><a href="#">Azure Data Engineering Certification (In Progress)</a><span class="desc">Hands-on training in Microsoft Azure data pipelines and architecture.</span></li>
+            <li><img src="training-icon.png" alt="Training Icon" class="icon"><a href="#">Palantir Foundry Technical Workshop</a><span class="desc">Practical course on Foundry for enterprise data integration.</span></li>
+            <li><img src="training-icon.png" alt="Training Icon" class="icon"><a href="#">Databricks Fundamentals</a><span class="desc">Use and trainings on Databricks foundational concepts</span></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><a href="bgracacoelho@gmail.com" target="_blank">Email</a></p>
+        <p><a href="https://www.linkedin.com/in/bgracacoelho/" target="_blank">LinkedIn</a></p>
+        <p><a href="https://github.com/bgcoelho" target="_blank">Github</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bruno Graca Coelho</p>
+    </footer>
+</body>
+</html>
